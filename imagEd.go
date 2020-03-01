@@ -19,12 +19,16 @@ var (
 	sImgSrc = flag.String("imgSrc", "", "Image file")
 	sImgDst = flag.String("imgDst", "", "Image file for output")
 )
+var sHelp = `Example:
+  ./imagEd -imgSrc plan9_glenda.jpg -line 377 -lineStart 385 -lineEnd 478 -column 250 -columnStart 330 -columnEnd 375
+`
 
 func main() {
 	flag.Usage = func() {
 		fmt.Fprintf(flag.CommandLine.Output(), "Simple image editor, that duplicates specified line or column of JPEG image to selected image's location and saves it into new file\n")
 		fmt.Fprintf(flag.CommandLine.Output(), "Usage of %s:\n", os.Args[0])
 		flag.PrintDefaults()
+		fmt.Fprintf(flag.CommandLine.Output(), "\n"+sHelp)
 	}
 	flag.Parse()
 	if *sImgSrc == "" {
