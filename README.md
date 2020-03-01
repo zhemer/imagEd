@@ -1,6 +1,7 @@
 # imagEd - simple JPEG image editor
 
 imagEd is a simple image editor, that duplicates specified line or column of JPEG image to selected image's location and saves it into new file.
+Specify line to be copied with -line parameter and starting (-lineStart) and ending (-lineEnd) lines there specified line will be copied. You can specify -column* parameters in the same time and manner too.
 
 ```console
 $ ./imagEd -h
@@ -29,6 +30,6 @@ Example:
 
 Given [this image](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glenda_bunny_mascot_of_plan_9_from_bell_black.jpg/375px-Glenda_bunny_mascot_of_plan_9_from_bell_black.jpg) and command from example you will get the image:
 
-|Original image|After running imagEd|
+|Original image|Image after running imagEd|
 | --- | --- |
 | ![plan9](plan9_glenda.jpg "Plan 9 Glenda") | ![plan9](copy_plan9_glenda.jpg "Plan 9 Glenda") |
