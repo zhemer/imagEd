@@ -31,3 +31,7 @@ Given [this image](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Gle
 
 | | | |
 | ![plan9](plan9_glenda.jpg "Plan 9 Glenda") | ==>> | ![plan9](copy_plan9_glenda.jpg "Plan 9 Glenda") |
+
+| []() | |
+| ------ | ------ |
+| cell | cell | cell |
