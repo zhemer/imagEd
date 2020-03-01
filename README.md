@@ -29,4 +29,5 @@ Example:
 
 Given [this image](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glenda_bunny_mascot_of_plan_9_from_bell_black.jpg/375px-Glenda_bunny_mascot_of_plan_9_from_bell_black.jpg) and command from example you will get the image:
 
+| | | |
 | ![plan9](plan9_glenda.jpg "Plan 9 Glenda") | ==>> | ![plan9](copy_plan9_glenda.jpg "Plan 9 Glenda") |
